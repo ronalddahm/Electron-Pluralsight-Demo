@@ -1,0 +1,22 @@
+.header {
+    color: blue;
+}
+
+.status {
+    display: inline-block;
+    height: 36;
+    width: 36;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.unknown {
+    color: black;
+}
+
+.clean {
+    color:green;
+}
+
+.dirty {
+    color: red;
+}
