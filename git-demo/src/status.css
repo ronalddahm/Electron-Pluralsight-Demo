@@ -2,21 +2,46 @@
     color: blue;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: cadetblue;
+}
+body {
+    overflow: hidden;
+    padding:0 15px;
+    margin:0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.text {
+    background: yellow;
+}
+
 .status {
     display: inline-block;
-    height: 36;
-    width: 36;
+    height: 36px;
+    width: 36px;
     border-radius: 50%;
     margin-left: 15px;
+    background: tomato;
 }
+
 .unknown {
-    color: black;
+    background: black;
 }
 
 .clean {
-    color:green;
+    background:green;
 }
 
 .dirty {
-    color: red;
+    background: red;
 }
