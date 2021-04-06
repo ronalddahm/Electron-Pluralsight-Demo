@@ -34,13 +34,14 @@ function formatDir(dir) {
 
 function removeStatus() {
     const el = document.getElementById('status');
-    el.classList.remove('unknow', 'clean', 'dirty');
+    console.log(el);
+    el.classList.remove('unknown', 'clean', 'dirty');
     return el;
 }
 
 function setStatus(status) {
     const el = removeStatus();
-
+    console.log(status);
     el.classList.add(status);
 }
 
