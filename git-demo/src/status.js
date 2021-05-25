@@ -48,6 +48,7 @@ function setStatus(status) {
 document.getElementById('input').addEventListener('keyup', evt => {
     clearTimeout(timer);
     timer = setTimeout( _=> {
+        removeStatus();
         const dir = formatDir(evt.target.value);
         if ( isDir(dir)) {
             checkGitStatus(dir);
